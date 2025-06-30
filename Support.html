@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kent State | Airport</title>
+    <link rel="stylesheet" href="Support.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Kent State Airport</h1>
+        <img id="Logo" src="images/LogoCircle.png" alt="KSU Logo" title="KSU Logo">
+
+        <div class="search">
+            <form action="#">
+                <input id="search" type="text" placeholder=" Search..." name="search">
+            </form>
+        </div>
+
+        <nav id="navMenu" class="navlist">
+            <a href="Flights.html">Flights</a>
+            <a href="Home.html">Home</a>
+            <a href="Support.html">Support</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <h1>Customer Support</h1>
+
+        <table>
+          <tr>
+            <td><img class="Figure2" src="images/Phone.png"></td>
+            <th class="Description2">Call Us</th>
+            <td><button class="Support2" onclick="scrollToSection('phone-section')">Contact</button></td>
+        </tr>
+          <tr>
+              <td><img class="Figure1" src="images/Envelope.png"></td>
+              <th class="Description1">Email Us</th>
+              <td><button class="Support1" onclick="scrollToSection('email-section')">Email</button></td>
+          </tr>
+          <tr>
+              <td><img class="Figure3" src="images/Question.png"></td>
+              <th class="Description3">FAQs</th>
+              <td><button class="Support3" onclick="scrollToSection('faq-section')">Answers</button></td>
+          </tr>
+      </table>
+      
+
+      <div class="titleHeading" id="phone-section"><h2>Call Us</h2></div>
+
+      <div class="line-container"></div>
+
+      <div class="phone-area">
+          <h2>General Contact Info</h2>
+          <p>Phone: (330) 672-2640<p>
+          <p>Fax: (330) 672-2641</p>
+          <h2>Airport Manager</h2>
+          <p class="MgrName">David Poluga</p>
+          <p>Phone: (330) 672-1943</p>
+      </div>
+
+      <br></br>
+
+      <div class="titleHeading" id="email-section"><h2>Email Us</h2></div>
+
+      <div class="line-container"></div>
+
+      <div class="email-area">
+        <h2>General Contact Info</h2>
+        <p>Email: airport@kent.edu</p>
+        <p>Email: info@kent.edu</p>
+        <h2>Airport Manager</h2>
+        <p class="MgrName">David Poluga</p>
+        <p>Email: dpoluga@kent.edu</p>
+    </div>
+
+    <div class="line-container"></div>
+
+    <br></br>
+
+    <div class="titleHeading" id="faq-section"><h2>FAQs</h2></div>
+
+    <div class="line-container"></div>
+
+    <div class="faq-area">  
+      <details>
+          <summary>Where is the Aiport Located?</summary>
+          <p class="answer">The Kent State Airport is located at 4020 Kent Road, Stow Ohio 44224.</p>
+      </details>
+  
+      <details>
+          <summary>How many planes do you have?</summary>
+          <p class="answer">We have around 30 planes of varies different models.</p>
+      </details>
+  
+      <details>
+          <summary>Do you have flights all times of the year?</summary>
+          <p class="answer">Yes, we offer flights during all times of the year including holidays weather permitting. </p>
+      </details>
+
+      <details>
+        <summary>Do you offer refunds</summary>
+        <p class="answer">Yes, depending on the situation we do offer ticket refunds if your flight is cancelled at least 2 weeks prior to your flight or if we cancel your flight for a reason like mechanical issues or weather. You can contact us for further details.</p>
+      </details>
+  </div>
+  <div class="line-container"></div>
+        
+    </main>
+
+
+
+    <footer>
+        <img id="footerLogo" src="images/LogoFlat.png" alt="footerLogo" title="footerLogo">
+        <p>&copy; 2025 Kent State University - All rights reserved.</p>
+    </footer>
+
+
+    <script src="Support.js"></script>
+
+</body>
+</html>

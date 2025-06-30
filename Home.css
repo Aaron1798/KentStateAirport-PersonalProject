@@ -1,0 +1,118 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    padding: 0;
+    margin-top: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.navlist, header, footer {
+    background-color: #003976;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    font-family: 'EB Garamond', serif;
+}
+
+.navlist {
+    display: flex;
+    justify-content: center;
+    background-color: #003976;
+    color: #fff;
+    width: 80%; /* Prevents full stretch */
+    margin: 20px auto; /* Centers navigation horizontally */
+    text-align: center;
+    padding: 1em;
+    gap: 20px; /* Spacing between links */
+}
+
+.navlist a {
+    color: black;
+    background-color: turquoise;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    width: 50px; /* Fixed size for consistency */
+    height: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlist a:hover{
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+.search{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+#search{
+    max-width: 100%;
+}
+
+#Logo{
+    height: auto;
+    max-width: 100%;
+    width: 125px;
+}
+
+#footerLogo{
+    height: auto;
+    max-width: 100%;
+    width: 200px;
+}
+
+main{
+    flex: 1;
+    text-align: center;
+}
+
+.about{
+    font-size:x-large;
+    font-weight: bold;
+}
+
+.Figure-1, .Figure-2, .Figure-3{
+    height: auto;
+    width: 650px;
+}
+
+/* ^^^^^^^^^^^^^ */
+/*ALERT BOX*/
+
+#alert-box {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100%; /* Adjust as needed */
+    margin-bottom: 20px; /* Adds spacing below the alert */
+}
+
