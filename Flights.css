@@ -1,9 +1,12 @@
 html, body{
     margin: 0;
     padding: 0;
-    height: 100%;
     width: 100%;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body{
@@ -16,10 +19,6 @@ body{
     overflow-x: hidden;
     align-items: center;
     justify-content: center;
-}
-
-.menu-toggle{
-    display: none;
 }
 
 .navlist, header, footer {
@@ -36,11 +35,11 @@ body{
     justify-content: center;
     background-color: #003976;
     color: #fff;
-    width: 80%; /* Prevents full stretch */
-    margin: 20px auto; /* Centers navigation horizontally */
+    width: 80%; 
+    margin: 20px auto; 
     text-align: center;
     padding: 1em;
-    gap: 20px; /* Spacing between links */
+    gap: 20px;
 }
 
 .navlist a {
@@ -51,7 +50,7 @@ body{
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
-    width: 50px; /* Fixed size for consistency */
+    width: 50px; 
     height: 10px;
     display: inline-flex;
     align-items: center;
@@ -91,28 +90,80 @@ main{
     text-align: center;
 }
 
-.about{
-    font-size:x-large;
+
+
+/*-----------------Welcome Section-----------------*/
+
+  .line-container{
+    width: 400px;
+    margin: 0 auto;
+    border-top: 2px solid #FFB81C;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Flight1, .Flight2, .Flight3, .Flight4 {
+    text-align: center; 
+    font-size: 18px; 
+    margin-top: 20px; 
+    color: black; 
+  }
+
+.titleHeading{
+    font-size: x-large;
+    color: #003976;
+    margin-top: 8%;
+}
+
+.FlightLine{
+    font-size: large;
     font-weight: bold;
 }
 
-.Figure-1, .Figure-2, .Figure-3{
+
+
+/*--------------FAQS-----------------*/
+
+summary:hover {
+    color: #005bb5; /* Changes color on hover */
+}
+
+.answer{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+summary {
+    font-size: 18px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    padding: 5px;
+    color: #0073e6; 
+}
+
+details {
+    margin-bottom: 30px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    background-color: turquoise; 
+    padding: 10px; 
+}
+
+/*-----------------Flights Section-----------------*/
+#Plane1, #Plane2, #Plane3, #Plane4 {
+    width: 600px;
     height: auto;
-    width: 650px;
 }
 
-/* ^^^^^^^^^^^^^ */
-/*ALERT BOX*/
-
-#alert-box {
-    background-color: red;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    padding: 20px;
-    margin-top: 10px;
-    border-radius: 5px;
-    width: 100%; /* Adjust as needed */
-    margin-bottom: 20px; /* Adds spacing below the alert */
+.FlightList {
+    margin-top: 20%;
 }
 
+.FlightHeader {
+    font-size: 5rem !important;
+}
+
+#PlaneIcon {
+    width: 200px;
+    height: auto;
+}
