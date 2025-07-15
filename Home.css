@@ -145,6 +145,8 @@ main{
         display: flex;
         flex-direction: column;
         min-height: 100vh;
+        margin: 0 !important;
+        padding: 0 !important;
     }
     main {
         flex: 1;
@@ -153,5 +155,14 @@ main{
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+
+    footer {
+        margin: 0;
+        padding: 1em 0;
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        left: 0;
     }
 }
