@@ -124,12 +124,24 @@ main{
     }
 
     .about {
-        font-size: small !important;
+        font-size: .75rem !important;
     }
 
     #alert-box {
         width: 95% !important; /* or try 90% or 100% for full width with padding */
         padding: 10px !important;
         font-size: small !important;
+    }
+
+    .Figure-1, .Figure-2, .Figure-3 {
+        margin-bottom: 50px;
+    }
+
+    #Logo {
+        width: 80px;
+    }
+
+    #footerLogo {
+        width: 125px;
     }
 }

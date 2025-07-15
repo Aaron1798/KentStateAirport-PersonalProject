@@ -163,3 +163,21 @@ main{
     width: 40%;
     max-width: 100%;
   }
+
+/**------------------------------------**/
+
+  @media only screen and (max-width: 600px) {
+
+    .welcome-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 70%;
+        margin-left: 8%;
+    }
+
+    #ProfilePic {
+      width: 30%;
+    }
+
+}
