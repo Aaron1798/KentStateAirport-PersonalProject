@@ -1,9 +1,12 @@
 html, body{
     margin: 0;
     padding: 0;
-    height: 100%;
     width: 100%;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body{
@@ -16,10 +19,6 @@ body{
     overflow-x: hidden;
     align-items: center;
     justify-content: center;
-}
-
-.menu-toggle{
-    display: none;
 }
 
 .navlist, header, footer {
@@ -36,11 +35,11 @@ body{
     justify-content: center;
     background-color: #003976;
     color: #fff;
-    width: 80%; /* Prevents full stretch */
-    margin: 20px auto; /* Centers navigation horizontally */
+    width: 80%; 
+    margin: 20px auto; 
     text-align: center;
     padding: 1em;
-    gap: 20px; /* Spacing between links */
+    gap: 20px;
 }
 
 .navlist a {
@@ -51,7 +50,7 @@ body{
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
-    width: 50px; /* Fixed size for consistency */
+    width: 50px; 
     height: 10px;
     display: inline-flex;
     align-items: center;
