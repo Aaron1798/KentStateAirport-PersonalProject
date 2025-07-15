@@ -111,7 +111,7 @@ main{
     padding: 20px;
     margin-top: 10px;
     border-radius: 5px;
-    width: 80%; /* Adjust as needed */
+    width: 50%; /* Adjust as needed */
     margin-bottom: 20px; /* Adds spacing below the alert */
 }
 
