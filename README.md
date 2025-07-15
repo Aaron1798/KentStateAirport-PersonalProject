@@ -1,6 +1,6 @@
 # Kent State Airport - Commercial Vision
 
-![Kent State Airport Screenshot/GIF](Projects/home.png)
+![Kent State Airport Screenshot/GIF](https://aaronsimeone.netlify.app/Projects/home.png)
 *(Upload your project screenshot or GIF to an `images` folder in your GitHub repository and update the path above!)*
 
 **Live Demo:** [https://aaron1798.github.io/KentStateAirport-PersonalProject/Home.html]
