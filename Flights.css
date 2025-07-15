@@ -167,3 +167,17 @@ details {
     width: 200px;
     height: auto;
 }
+
+/* Media query for smaller screens */
+
+@media only screen and (max-width: 600px) {
+
+    .FlightHeader {
+        font-size: large;
+    }
+
+    h2{
+        font-size: medium;
+    }
+
+}

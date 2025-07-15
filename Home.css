@@ -124,7 +124,7 @@ main{
     }
 
     .about {
-        font-size: medium !important;
+        font-size: small !important;
     }
 
     #alert-box {

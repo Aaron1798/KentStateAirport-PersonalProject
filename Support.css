@@ -192,3 +192,13 @@ details {
     font-family: Arial, sans-serif;
     margin: 20px;
 }
+
+/* Media query for smaller screens */
+
+@media only screen and (max-width: 600px) {
+
+    table {
+        width: 80%;
+    }
+
+}
