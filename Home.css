@@ -115,3 +115,17 @@ main{
     margin-bottom: 20px; /* Adds spacing below the alert */
 }
 
+
+/* Media query for smaller screens */
+
+@media only screen and (max-width: 600px) {
+
+    .about{
+        font-size: medium;
+    }
+
+    h1{
+        font-size: large;
+    }
+
+}
