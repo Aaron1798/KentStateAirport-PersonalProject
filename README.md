@@ -3,7 +3,7 @@
 ![Kent State Airport Screenshot/GIF](https://aaronsimeone.netlify.app/Projects/home.png)
 
 
-**Live Demo:** [https://aaron1798.github.io/KentStateAirport-PersonalProject/Home.html]
+**Live Demo:** [https://aaron1798.github.io/KentStateAirport-PersonalProject/]
 
 ## Project Overview
 
