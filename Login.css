@@ -98,3 +98,7 @@ label {
     background-color: turquoise;
     color: black;
 }
+
+#hint{
+    text-align: center;
+}
