@@ -126,10 +126,10 @@ main{
     .about {
         font-size: medium !important;
     }
-    
+
     #alert-box {
         width: 95% !important; /* or try 90% or 100% for full width with padding */
         padding: 10px !important;
-        font-size: medium !important;
+        font-size: small !important;
     }
 }
