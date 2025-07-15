@@ -121,34 +121,6 @@ main{
 }
 
 
-
-/*--------------FAQS-----------------*/
-
-summary:hover {
-    color: #005bb5; /* Changes color on hover */
-}
-
-.answer{
-    font-size: 16px;
-    margin: 10px 0;
-}
-
-summary {
-    font-size: 18px; 
-    font-weight: bold; 
-    cursor: pointer; 
-    padding: 5px;
-    color: #0073e6; 
-}
-
-details {
-    margin-bottom: 30px; 
-    border: 1px solid #ccc; 
-    border-radius: 8px; 
-    background-color: turquoise; 
-    padding: 10px; 
-}
-
 /*-----------------Flights Section-----------------*/
 #Plane1, #Plane2, #Plane3, #Plane4 {
     width: 600px;
@@ -173,11 +145,22 @@ details {
 @media only screen and (max-width: 600px) {
 
     .FlightHeader {
-        font-size: large;
+        font-size: 2.5rem !important;
     }
 
     h2{
-        font-size: medium;
+        font-size: .7rem !important;
+        font-weight: bold;
+    }
+
+    #Plane1, #Plane2, #Plane3, #Plane4 {
+    width: 250px;
+    height: auto;
+    }
+
+    #PlaneIcon {
+    width: 150px;
+    height: auto;
     }
 
 }

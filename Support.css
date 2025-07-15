@@ -197,8 +197,50 @@ details {
 
 @media only screen and (max-width: 600px) {
 
-    table {
-        width: 80%;
+    tr {
+    margin-left: 75px;
+    width: 250px;
+    height: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex; 
+    margin-bottom: 30px; 
+    }
+
+    .Figure1, .Figure2, .Figure3{
+    height: auto;
+    width: 30px;
+    }
+
+      td, th {
+    padding: 10px 0px 0px 0px;
+    vertical-align: middle;
+    text-align: center;
+    }
+
+    .Description1, .Description2, .Description3{
+    font-size:medium;
+    font-family: 'EB Garamond', serif;
+    }
+
+    .Support1, .Support2, .Support3{
+    width: 65px;
+    height: 25px;
+    font-size: small;
+    font-weight: bold;
+    }
+
+    summary {
+        font-size: small;
+    }
+    
+    .answer {
+        font-size: small;
+    }
+
+    .faq-area {
+        width: fit-content;
+        margin-left: 12%;
     }
 
 }
