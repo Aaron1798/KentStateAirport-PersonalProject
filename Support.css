@@ -243,4 +243,12 @@ details {
         margin-left: 14%;
     }
 
+    #Logo {
+        width: 80px;
+    }
+
+    #footerLogo {
+        width: 125px;
+    }
+
 }

@@ -180,4 +180,12 @@ main{
       width: 30%;
     }
 
+        #Logo {
+        width: 80px;
+    }
+
+    #footerLogo {
+        width: 125px;
+    }
+
 }

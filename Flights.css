@@ -163,4 +163,12 @@ main{
     height: auto;
     }
 
+    #Logo {
+        width: 80px;
+    }
+
+    #footerLogo {
+        width: 125px;
+    }
+
 }

@@ -102,3 +102,15 @@ label {
 #hint{
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+
+    #Logo {
+        width: 80px;
+    }
+
+    #footerLogo {
+        width: 125px;
+    }
+
+}
