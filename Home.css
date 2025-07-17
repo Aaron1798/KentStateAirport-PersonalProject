@@ -9,16 +9,23 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: white;
     padding: 0;
-    margin-top: auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-    align-items: center;
-    justify-content: center;
+    /* REMOVE align-items and justify-content here */
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;      /* Center main content horizontally */
+    justify-content: center;  /* Center main content vertically */
+    text-align: center;
 }
 
 .navlist, header, footer {
@@ -85,11 +92,6 @@ body{
     width: 200px;
 }
 
-main{
-    flex: 1;
-    text-align: center;
-}
-
 .about{
     font-size:x-large;
     font-weight: bold;
@@ -112,8 +114,10 @@ main{
     padding: 20px;
     margin-top: 10px;
     border-radius: 5px;
-    width: 80%; /* Adjust as needed */
-    margin-bottom: 20px; /* Adds spacing below the alert */
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
