@@ -157,8 +157,9 @@ main {
         display: flex;
         flex-direction: column;
         min-height: 100vh;
-        width: 100vw;
+        width: 100%;
         background: white;
+        overflow-x: hidden;
     }
     main {
         flex: 1;
@@ -171,7 +172,7 @@ main {
     footer {
         margin: 0 !important;
         padding: 1em 0 !important;
-        width: 100vw !important;
+        width: 100% !important;
         background-color: #003976 !important;
         color: #fff !important;
         position: relative;
