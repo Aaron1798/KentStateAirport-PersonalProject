@@ -17,7 +17,6 @@ body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-    /* REMOVE align-items and justify-content here */
 }
 
 main {
@@ -134,7 +133,7 @@ main {
     }
 
     #alert-box {
-        width: 95% !important; /* or try 90% or 100% for full width with padding */
+        width: 95% !important;
         padding: 10px !important;
         font-size: small !important;
     }
